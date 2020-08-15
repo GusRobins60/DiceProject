@@ -14,7 +14,7 @@ class DiceRoll:
 		print(dice)
 
 
-my_dice = DiceRoll(dice)
+my_dice = DiceRoll()
 my_dice.d6()
 
 
