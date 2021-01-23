@@ -9,12 +9,12 @@ class DiceRoll:
 		self.min_roll = 1
 		self.max_roll = 6
 
-		dice = random.rantint(min_roll,max_roll)
+		dice = random.randint(self.min_roll,self.max_roll)
 
 		print(dice)
 
 
-my_dice = DiceRoll()
+my_dice = DiceRoll(1)
 my_dice.d6()
 
 
